@@ -1,0 +1,18 @@
+.whiteBurguer {
+  align-items: center;
+  width: 100%;
+  z-index: 9999999;
+}
+
+.whiteBurguer > div {
+  height: 100% !important;
+  display: flex;
+  justify-content: flex-end;
+  width: 140% !important;
+}
+
+.whiteBurguer > div > canvas {
+  // width: 110% !important;
+  height: 72px !important;
+  z-index: 9999999;
+}

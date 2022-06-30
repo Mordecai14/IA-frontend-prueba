@@ -1,0 +1,77 @@
+.Container__Info {
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.Info__Fresa1 {
+  position: absolute;
+  width: 65px;
+  right: -3%;
+  top: 10%;
+}
+.Info__Fresa2 {
+  position: absolute;
+  width: 65px;
+  left: -5%;
+  top: 38%;
+}
+.Info__Title {
+  color: #6f2e6d;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 2.41px;
+}
+.Info__Content {
+  margin-top: 28px;
+  font-size: 14px;
+}
+.Info__Description-description {
+  font-size: 14px;
+  font-weight: 300;
+}
+.Info__Table {
+  color: #78246d;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3;
+  letter-spacing: normal;
+  text-align: right;
+
+  background-color: #fafafa;
+}
+.Info__Table-tabla {
+  width: 90%;
+  gap: 20px;
+}
+.Info_desk {
+  display: none;
+}
+
+@media only screen and (min-width: 1025px) {
+  .Container__Info {
+    display: none;
+  }
+  .Info__Desk {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 380px 100px 380px;
+  }
+  .Info__Title {
+    font-size: 44px;
+  }
+  .InfoDesk__Container {
+    display: flex;
+    gap: 5em;
+    margin-top: 4%;
+  }
+  .InfoDesk__Left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .InfoDesk__Right {
+    width: 50%;
+  }
+}

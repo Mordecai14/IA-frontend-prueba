@@ -1,0 +1,50 @@
+.Footer__Container {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+.Footer__Logos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Footer__Logos-danone {
+  width: 3.5em;
+}
+.Footer__Logos-vita {
+  width: 6em;
+  height: 2em;
+}
+.Footer__Content {
+  color: #000;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+}
+.Footer__Desk {
+  display: none;
+}
+@media only screen and (min-width: 1025px) {
+  .Footer__Container {
+    display: none;
+  }
+  .Footer__Desk {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  .FooterDesk__Left {
+    display: flex;
+  }
+  .Footer__Content {
+    text-align: left;
+    margin-left: 25px;
+    font-size: 12px;
+  }
+  .FooterDesk__Right {
+  }
+}

@@ -1,0 +1,212 @@
+.Product {
+  background-image: linear-gradient(to bottom, #f9e6e6, #ebacac);
+  padding: 20px;
+  overflow: hidden;
+}
+.Product__Fresa1 {
+  position: absolute;
+  width: 145px;
+  right: -0%;
+  top: 13%;
+}
+.Product__Fresa2 {
+  position: absolute;
+  left: -11%;
+  width: 105px;
+  transform: rotate(310deg);
+}
+.Product__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Product__image {
+  width: 120.5px;
+  height: 243.1px;
+}
+.Product__types {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  font-size: 14px;
+  opacity: 1;
+}
+
+.Product__picker-selected {
+  height: 23px;
+  margin: 0 10px 0 4px;
+  padding: 2px 20px 2px 23px;
+  border-radius: 11.5px;
+  background-color: #f5bebe;
+}
+.Product__picker-sabor {
+  height: 23px;
+  margin: 0 11px 0 10px;
+  padding: 2px 13px 2px 15px;
+  border-radius: 11.5px;
+  border: solid 1px #d3b6b6;
+}
+.Product__title {
+  color: #78246d;
+  font-size: 20px;
+  font-weight: 300;
+}
+.Product__description {
+  font-size: 14px;
+  font-weight: 300;
+}
+.Product__buttonShop {
+  width: 335px;
+  height: 40px;
+  margin: 0px 20px 36px;
+  padding: 10px 75px 11px 70px;
+  background-color: #78246d;
+  color: #ffff;
+  border: none;
+  font-size: 14px;
+}
+.Product__stamp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 21px;
+}
+.Product__stamp-endorse {
+  width: 62px;
+  height: 62px;
+}
+.Product__stamp-noSugar {
+  width: 82px;
+  height: 62px;
+}
+
+.Product__arrow {
+  width: 50px;
+  height: 50px;
+  background-color: #78246d;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.Product__Fresa3-desk,
+.Product__Fresa4-desk,
+.Product__Fresa5-desk,
+.Product__Fresa6-desk,
+.Product__Fresa7-desk,
+.Product__Fresa8-desk,
+.Product__Fresa9-desk {
+  display: none;
+}
+
+@media only screen and (min-width: 1025px) {
+  .Product__container {
+    flex-direction: row;
+    padding: 0 150px 0 150px;
+  }
+  .Product__Fresa1 {
+    width: 215px;
+    right: 14%;
+    top: 15%;
+  }
+  .Product__Fresa2 {
+    display: none;
+  }
+  .Product__Fresa3-desk {
+    display: block;
+    position: absolute;
+    width: 100px;
+    top: 60%;
+    left: 0;
+  }
+  .Product__Fresa4-desk {
+    display: block;
+    position: absolute;
+    width: 130px;
+    right: 10%;
+    top: 60%;
+  }
+  .Product__Fresa5-desk {
+    display: block;
+    position: absolute;
+    width: 175px;
+    left: 1%;
+    top: 105%;
+  }
+  .Product__Fresa6-desk {
+    display: block;
+    position: absolute;
+    width: 110px;
+    right: 0;
+    top: 100%;
+  }
+  .Product__Fresa7-desk {
+    display: block;
+    position: absolute;
+    width: 120px;
+    left: 0;
+    top: 158%;
+  }
+  .Product__Fresa8-desk {
+    display: block;
+    position: absolute;
+    left: 10%;
+    top: 160%;
+    width: 180px;
+  }
+  .Product__Fresa9-desk {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 155%;
+    width: 130px;
+  }
+  .Product__Contenido {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+  }
+  .Product__image {
+    width: 218.5px;
+    height: 403.1px;
+  }
+  .Product__types {
+    justify-content: flex-start;
+  }
+  .Product__title {
+    font-size: 40px;
+  }
+  .Product__description {
+    font-size: 17px;
+  }
+  .Product__Button {
+    display: flex;
+    width: 100%;
+  }
+  .Product__buttonShop {
+    width: 243px;
+    height: 40px;
+    font-size: 14px;
+    margin: 17px 330px 33px 0;
+    padding: 11px 52px 10px 53px;
+  }
+  .Product__stamp {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .Product__arrow {
+    margin-left: 5em;
+    position: absolute;
+    transform: translate(30%, 440%);
+  }
+}

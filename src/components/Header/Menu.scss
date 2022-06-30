@@ -1,0 +1,27 @@
+.Menu {
+  display: flex;
+  position: absolute;
+  top: 0;
+  //   height: 100%;
+  //   width: 100%;
+}
+.Menu__Container {
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  //   top: 6.7em;
+  top: 0;
+  width: 100%;
+  overflow-y: hidden;
+  position: fixed;
+}
+.Menu__Contenido {
+  //   background-color: slateblue;
+  background-color: #ffff;
+  //   opacity: 0.8;
+  z-index: 99;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
